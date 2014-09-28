@@ -6,4 +6,4 @@ Touhouc
 A Danmaku
 
 
-Please do not contribute through source files yet
+Please do not contribute through source files yet.
