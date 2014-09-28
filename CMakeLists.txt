@@ -5,6 +5,8 @@ cmake_minimum_required(VERSION 2.8)
 
 project(touhouc C)
 
-find_library(SDL2 sdl2)
+set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake/Modules)
+
+find_package(SDL2 REQUIRED)
 
 add_subdirectory(src)
