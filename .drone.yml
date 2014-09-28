@@ -1,0 +1,4 @@
+image: neikos/touhouc_build
+script:
+    - cmake .
+    - make
